@@ -22,20 +22,18 @@ def _hash_password(password: str, salt: str = None) -> tuple[str, str]:
     return hashed, salt
 
 def _validate_dartmouth_email(email: str) -> bool:
-    """Validate that the email is a Dartmouth email address."""
+    # Validate that the email is a Dartmouth email address.
     dartmouth_pattern = r'^[a-zA-Z0-9._%+-]+@dartmouth\.edu$'
     return bool(re.match(dartmouth_pattern, email))
 
 def register_user(username: str, password: str, role: str, email: str) -> None:
     """
     Register a new user with the given credentials and role.
-    
     Args:
         username: The username for the account
         password: The user's password
         role: The user's role (Sender, Receiver, or Moderator)
         email: The user's Dartmouth email address
-    
     Raises:
         ValueError: If the email is not a valid Dartmouth email or if other validations fail
     """
@@ -91,7 +89,7 @@ def login_user(username: str, password: str) -> bool:
     return hashed_password == user['password_hash']
 
 def get_user_role(username: str) -> str:
-    """Get the role of a user."""
+    # Get the role of a user.
     if not DB_PATH.exists():
         raise ValueError("User database does not exist")
     
