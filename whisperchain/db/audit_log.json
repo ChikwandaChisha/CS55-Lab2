@@ -80,6 +80,13 @@
             "data": {
                 "username": "Kane"
             }
+        },
+        {
+            "timestamp": 1747368118,
+            "type": "messages_viewed",
+            "data": {
+                "username": "receiver1"
+            }
         }
     ]
 }
