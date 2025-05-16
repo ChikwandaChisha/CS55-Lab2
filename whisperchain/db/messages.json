@@ -1,0 +1,38 @@
+{
+    "messages": {
+        "1": {
+            "content": "Testing one, two",
+            "token": "0qZtT0aAA2u8AtL_o55509avj2oz7ZVfsWRO2lst9lU",
+            "created_at": 1747192485,
+            "flagged": false
+        },
+        "2": {
+            "content": "Hey! Thank you for being an amazing professor. You are so kinddd!!",
+            "token": "73Rt6lBcYV24NCvj2TFEQ9onEbQDxuKoTk6h5FO5ABU",
+            "created_at": 1747366999,
+            "flagged": false
+        },
+        "3": {
+            "content": "This is a new test message for receiver1.",
+            "token": "PfOFBVqy22JPIv97S3uUcMa942FRPE2tmZFC5Ab0_Qo",
+            "created_at": 1747367428,
+            "flagged": false,
+            "read_by": []
+        },
+        "4": {
+            "content": "This is a new test message for receiver1.",
+            "token": "no_-lB6Avj_QRKtft50FGKgW-8WY6BKbpMPIm2mo5CI",
+            "created_at": 1747367755,
+            "flagged": false,
+            "read_by": []
+        },
+        "5": {
+            "content": "This is a new test message for receiver1.",
+            "token": "CVsmY1zPvX-IXx72mSbssOVNjehJKyPFw1qO6DkwSj8",
+            "created_at": 1747367830,
+            "flagged": false,
+            "read_by": []
+        }
+    },
+    "next_id": 6
+}

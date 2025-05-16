@@ -1,0 +1,20 @@
+{
+    "alice": {
+        "password_hash": "3a219fa142e7ec30e61ef1f9b4670d96100ace2b547f4c5d39e80c5d0b385746",
+        "salt": "e3c6e90bccdaaf1d888c5339d542359e",
+        "role": "Sender",
+        "email": "alice@dartmouth.edu"
+    },
+    "Kane": {
+        "password_hash": "375d85e20de90285604a7220f860da4cbd014ad0807ef03a64be3eb443e96424",
+        "salt": "7336b300c6d28a41cc8f49f8a1b395ce",
+        "role": "Sender",
+        "email": "kane@dartmouth.edu"
+    },
+    "receiver1": {
+        "password_hash": "35db9dbf583a36656301039316f755dd4ad40af366f558e489d05d45904f5984",
+        "salt": "7ae0e29d37a9c2b57920053022fb2f37",
+        "role": "Receiver",
+        "email": "receiver1@dartmouth.edu"
+    }
+}

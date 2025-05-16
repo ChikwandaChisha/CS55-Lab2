@@ -46,8 +46,8 @@ def register_user(username: str, password: str, role: str, email: str) -> None:
         raise ValueError("Only Dartmouth email addresses (@dartmouth.edu) are allowed")
     
     # Validate role
-    if role not in ['Sender', 'Receiver', 'Moderator']:
-        raise ValueError("Invalid role. Must be one of: Sender, Receiver, Moderator")
+    if role.lower() not in ['sender', 'receiver', 'moderator', 'admin']:
+        raise ValueError("Invalid role. Must be one of: Sender, Receiver, Moderator, Admin")
     
     # Load existing users
     with open(DB_PATH, 'r') as f:

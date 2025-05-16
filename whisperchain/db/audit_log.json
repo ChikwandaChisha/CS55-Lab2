@@ -1,0 +1,85 @@
+{
+    "events": [
+        {
+            "timestamp": 1747365744,
+            "type": "test_event",
+            "data": {
+                "message": "test"
+            }
+        },
+        {
+            "timestamp": 1747366413,
+            "type": "login",
+            "data": {
+                "username": "alice"
+            }
+        },
+        {
+            "timestamp": 1747366608,
+            "type": "registration",
+            "data": {
+                "username": "Kane",
+                "role": "Sender",
+                "email": "kane@dartmouth.edu"
+            }
+        },
+        {
+            "timestamp": 1747366924,
+            "type": "token_generation",
+            "data": {
+                "username": "Kane"
+            }
+        },
+        {
+            "timestamp": 1747366999,
+            "type": "message_sent",
+            "data": {
+                "username": "Kane"
+            }
+        },
+        {
+            "timestamp": 1747367237,
+            "type": "registration",
+            "data": {
+                "username": "receiver1",
+                "role": "Receiver",
+                "email": "receiver1@dartmouth.edu"
+            }
+        },
+        {
+            "timestamp": 1747367259,
+            "type": "messages_viewed",
+            "data": {
+                "username": "receiver1"
+            }
+        },
+        {
+            "timestamp": 1747367318,
+            "type": "token_generation",
+            "data": {
+                "username": "Kane"
+            }
+        },
+        {
+            "timestamp": 1747367732,
+            "type": "token_generation",
+            "data": {
+                "username": "Kane"
+            }
+        },
+        {
+            "timestamp": 1747367771,
+            "type": "messages_viewed",
+            "data": {
+                "username": "receiver1"
+            }
+        },
+        {
+            "timestamp": 1747367795,
+            "type": "token_generation",
+            "data": {
+                "username": "Kane"
+            }
+        }
+    ]
+}
